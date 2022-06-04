@@ -79,4 +79,4 @@ printf "FROM ubuntu:latest \
 \nRUN touch /var/log/cron.log \
 \n \
 \n# Run the command on container startup \
-\nCMD cron && tail -f /var/log/cron.log"> /c/Users/FranPortatil/desktop/Dockerfile
+\nCMD cron && tail -f /var/log/cron.log"> ./Dockerfile
