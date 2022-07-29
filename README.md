@@ -1,4 +1,4 @@
-# get-public-ip-container
+# Get Public IP
 
 An Ubuntu based container which includes a cron service and a bash script which is executed each minute and it does send over SSMTP Mail a notification whenever our public IP suffers a modification.
 
